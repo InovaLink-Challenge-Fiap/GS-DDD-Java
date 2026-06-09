@@ -20,9 +20,9 @@ public class MainConsole {
         System.out.println("--- SISTEMA AUTONOMO DE FROTA DE SUPERFICIE (SAFS) ---");
 
         while (rodando) {
-            System.out.println("\n[1] Lancar Nova Sonda ");
+            System.out.println("\n[1] Lancar Nova Sonda (Factory)");
             System.out.println("[2] Listar Status da Frota");
-            System.out.println("[3] Enviar Coordenada de Missao ");
+            System.out.println("[3] Enviar Coordenada de Missao (Template Method)");
             System.out.println("[4] Sair");
             System.out.print("Escolha uma diretriz: ");
 
@@ -37,7 +37,6 @@ public class MainConsole {
                         String id = scanner.nextLine();
 
                         Sonda novaSonda = SondaFactory.criarSonda(tipo, id);
-
                         service.registrarSonda(novaSonda);
                         System.out.println("Sonda instanciada e cadastrada com sucesso!");
                         break;
