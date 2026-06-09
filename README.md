@@ -95,3 +95,6 @@ Execute o programa principal:
 java br.com.fiap.space.presentation.MainConsole
 ````
 Utilize o menu numerico no terminal para criar as sondas, verificar as estatisticas da frota e enviar as coordenadas das rotinas autonomas.
+
+Diagrama:
+![GSdiagrama.png](GSdiagrama.png)
