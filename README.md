@@ -98,3 +98,6 @@ Utilize o menu numerico no terminal para criar as sondas, verificar as estatisti
 
 Diagrama:
 ![GSdiagrama.png](GSdiagrama.png)
+
+Vídeo youtube:
+https://youtu.be/K-zHbOUG1BU
